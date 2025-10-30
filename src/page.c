@@ -91,7 +91,7 @@ void free_physical_pages_list(struct ppage *ppage_list) {
     }
 }
 
-/* Public API matching the homework specification. */
-void free_physical_pages(struct ppage *ppage_list) {
+/* Public API renamed to avoid conflict with free_physical_pages pointer symbol. */
+void pfa_free_pages(struct ppage *ppage_list) {
     free_physical_pages_list(ppage_list);
 }
