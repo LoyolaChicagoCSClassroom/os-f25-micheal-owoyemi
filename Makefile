@@ -26,7 +26,6 @@ OBJS = \
 	kernel_main.o \
 	page.o \
 	paging.o \
-	fat.o \
 
 # Make sure to keep a blank line here after OBJS list
 
